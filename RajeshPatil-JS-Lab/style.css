@@ -1,0 +1,90 @@
+body {
+    display: block;
+    position: center;
+    font-family: 'Space Mono', monospace;
+    background-image: url('Background-quiz-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#grid {
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgba(216, 214, 214, 0.1);
+    backdrop-filter: blur(35px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 30px 30px 30px;
+    overflow: hidden;
+    box-shadow: inset 0 39px 56px -36px hsl(0deg 0% 100% / 50%), 
+    inset 0 7px 11px -4px hsl(0deg 0% 100% / 25%), 
+    inset 0 -82px 68px -64px rgb(96 68 144 / 30%), 
+    inset 0 98px 100px -48px rgb(202 172 255 / 30%), 
+    inset 0 4px 18px 0 rgb(154 146 210 / 30%), 
+    inset 0 1px 40px 0 rgb(227 222 255 / 20%);
+}
+
+#quiz h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #2ee4db;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+#score {
+    color: #f9f7f7;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+#question {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #7576763c;
+    width: 250px;
+    font-size: 20px;
+    color: rgb(249, 247, 247);
+    border: 1px solid #1D3C6A;
+    border-radius: 5px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.35);
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #d7d4d4;
+    font-size: 18px;
+}
+
+#quiz hr:first-of-type {
+    margin-bottom: 20px;
+}
+
+#quiz hr:nth-of-type(2) {
+    margin-top: 50px;
+}
